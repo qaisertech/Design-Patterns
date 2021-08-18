@@ -9,7 +9,7 @@ namespace Singleton_Demo
             Employee employee= new Employee();
             employee.CallSingleton();
             Student student= new Student();
-            student.FromStudent();
+            student.CallSingleton();
             Console.ReadLine();
         }
     }
